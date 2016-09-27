@@ -1,2 +1,2 @@
-# contructGame
-Game desenvolvido na disciplina CJ2
+# Ronaldo Balofo
+Game desenvolvido na disciplina CJ2, utilizando Construct2
