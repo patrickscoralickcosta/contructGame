@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>TurmaBalofoVsLeguminosos</name>
+    <description></description>
+    <version>1.1.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>21600</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>720</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Tela1</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">Internet Explorer</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Fundo" sid="7592341500184844">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\patrick.costa\Pictures\TiledBackGround.png" />
+        </object-type>
+        <object-type name="Keyboard" sid="8273507359911087">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Mouse" sid="2957004602942925">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Browser" sid="4530946615132005">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="LogoNAVE" sid="959652228705521">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="433819553750379">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="465968439272457" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\patri\Downloads\ArtesConstructGame\Pack de Logos\Logos_Horizontal_NAVE_Normal.png">
+                        <collision-poly>
+                            <point x="0.0776042" y="0.298" />
+                            <point x="0.91875" y="0.312" />
+                            <point x="0.990625" y="0.5" />
+                            <point x="0.930208" y="0.732" />
+                            <point x="0.5" y="0.686" />
+                            <point x="0.14375" y="0.448" />
+                            <point x="0.0239583" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BotaoJogar" sid="350531421171086">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="355330985809821" speed="5">
+                    <frame duration="1" hotspotX="0.5006" hotspotY="0.5" original-source="C:\Users\patri\Downloads\ArtesConstructGame\BotãoJogar.png">
+                        <collision-poly>
+                            <point x="0.030012" y="0.1" />
+                            <point x="0.4994" y="0" />
+                            <point x="0.977191" y="0.076" />
+                            <point x="1" y="0.5" />
+                            <point x="0.969988" y="0.9" />
+                            <point x="0.4994" y="1" />
+                            <point x="0.0228091" y="0.924" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BotaoCreditos" sid="185086416782546">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="816540677764623" speed="5">
+                    <frame duration="1" hotspotX="0.5006" hotspotY="0.5" original-source="C:\Users\patri\Downloads\ArtesConstructGame\BotãoCreditos.png">
+                        <collision-poly>
+                            <point x="0.030012" y="0.1" />
+                            <point x="0.4994" y="0" />
+                            <point x="0.977191" y="0.076" />
+                            <point x="1" y="0.5" />
+                            <point x="0.969988" y="0.9" />
+                            <point x="0.4994" y="1" />
+                            <point x="0.0228091" y="0.924" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BotaoSair" sid="692916143039721">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="981182935561336" speed="5">
+                    <frame duration="1" hotspotX="0.5006" hotspotY="0.5" original-source="C:\Users\patri\Downloads\ArtesConstructGame\BotãoSair.png">
+                        <collision-poly>
+                            <point x="0.030012" y="0.1" />
+                            <point x="0.4994" y="0" />
+                            <point x="0.977191" y="0.076" />
+                            <point x="1" y="0.5" />
+                            <point x="0.969988" y="0.9" />
+                            <point x="0.4994" y="1" />
+                            <point x="0.0228091" y="0.924" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Título" sid="317892590568799">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="rascunho" sid="194387945668927">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Cenario" sid="200546765904964">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="525956817214975" speed="5">
+                    <frame duration="1" hotspotX="0.477661" hotspotY="0.53121" original-source="C:\Users\patri\Downloads\ArtesConstructGame\Cenario_TowerDefense_Teste1.png">
+                        <collision-poly>
+                            <point x="0.00116956" y="0.00215238" />
+                            <point x="0.999298" y="0.00129145" />
+                            <point x="0.999298" y="0.499785" />
+                            <point x="1" y="0.92811" />
+                            <point x="0.514854" y="0.944468" />
+                            <point x="0" y="0.938011" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BotaoVoltarMenu" sid="293504128992678">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="418885302476589" speed="5">
+                    <frame duration="1" hotspotX="0.5006" hotspotY="0.501945" original-source="C:\Users\patri\Downloads\ArtesConstructGame\Botãovoltar.png">
+                        <collision-poly>
+                            <point x="0.0312125" y="0.101167" />
+                            <point x="0.4994" y="0" />
+                            <point x="0.977191" y="0.07393" />
+                            <point x="1" y="0.498054" />
+                            <point x="0.969988" y="0.902724" />
+                            <point x="0.4994" y="1" />
+                            <point x="0.0228091" y="0.92607" />
+                            <point x="0" y="0.498054" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ComplementoFundo" sid="355968502955385">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="417689562600265" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BotãoPause" sid="7762067952178547">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4959871541032727" speed="5">
+                    <frame duration="1" hotspotX="0.504274" hotspotY="0.495238" original-source="C:\Users\patrick.costa\Downloads\BotãoPause.png">
+                        <collision-poly>
+                            <point x="0.944444" y="0.12381" />
+                            <point x="0.970085" y="0.495238" />
+                            <point x="0.931624" y="0.838095" />
+                            <point x="0.555556" y="0.495238" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BotaoPause" sid="7356525216873962">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4617687737587636" speed="5">
+                    <frame duration="1" hotspotX="0.504587" hotspotY="0.5" original-source="C:\Users\patrick.costa\Downloads\BotãoPause.png">
+                        <collision-poly>
+                            <point x="0.119266" y="0.122642" />
+                            <point x="0.495413" y="0.0377358" />
+                            <point x="0.87156" y="0.132075" />
+                            <point x="0.926606" y="0.5" />
+                            <point x="0.844037" y="0.839623" />
+                            <point x="0.495413" y="0.924528" />
+                            <point x="0.12844" y="0.867925" />
+                            <point x="0.0366972" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TelaPauseMenu" sid="1515332216434776">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5055183253867396" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503401" original-source="C:\Users\patrick.costa\Downloads\TelaPauseMenu.png">
+                        <collision-poly>
+                            <point x="0.0333333" y="0.0416667" />
+                            <point x="0.966667" y="0.0416667" />
+                            <point x="1" y="0.5" />
+                            <point x="0.966667" y="0.958333" />
+                            <point x="0.0333333" y="0.958333" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Level1.xml</layout>
+        <layout>TelaCréditos.xml</layout>
+        <layout>Tela1.xml</layout>
+        <layout>MainMenu.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Level1.xml</event-sheet>
+        <event-sheet>TelaCréditos.xml</event-sheet>
+        <event-sheet>Tela1.xml</event-sheet>
+        <event-sheet>MainMenu.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="4" />
+        <global-instance type="Mouse" uid="5" />
+        <global-instance type="Browser" uid="6" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
